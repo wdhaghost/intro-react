@@ -7,20 +7,23 @@ function DataManagement() {
   const codeToShow = CodeToShow;
   var nombre :number = 400
   var text :string =""
-
-  const StudentTs :Student ={
-    Lastname:"Kujo",
-    Firstname:"Jotaro",
-    Class:"A3 Dev"
-  }
+  
 
   var StudentsList: Array<Student>=[
     {
+      Id:1,
+      Lastname:"Kujo",
+      Firstname:"Jotaro",
+      Class:"A3 Dev"
+    },
+    {
+      Id:2,
       Lastname:"Wayne",
       Firstname:"John",
       Class:"LA"
     },
     {
+      Id:3,
       Lastname:"Payne",
       Firstname:"Max",
       Class:"NYPD"

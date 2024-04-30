@@ -9,6 +9,7 @@ import DataManagement from "./Components/DataManagement/Datamanagement";
 import LearnUseContext from "./Components/LearnUseContext/LearnUseContext";
 import LearnUseEffect from "./Components/LearnUseEffect/LearnUseEffect";
 import UseAPI from "./Components/UseAPI/UseAPI";
+import LearnUseRef from "./Components/LearnUseRef/LearnUseState";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "useAPI",
         element: <UseAPI></UseAPI>,
+      },
+      {
+        path: "useRef",
+        element: <LearnUseRef></LearnUseRef>,
       },
     ],
   },

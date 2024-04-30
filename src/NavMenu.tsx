@@ -33,6 +33,12 @@ function NavMenu() {
           Appel à une API{" "}
         </Link>
       </li>
+      <li>
+        <Link className="link" to={"useRef"}>
+          {" "}
+          Utilisation de Useref{" "}
+        </Link>
+      </li>
     </ul>
   );
 }
